@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="Myservlet" method="POST" enctype="multipart/form-data">
+        <div>
+            <h1>FILE UPLOAD APPLICATION</h1>
+            <br>
+            Select file to  upload:<input type="file" name="f1">
+            <br>
+            <br>
+            <br>
+            Destination:<input type="text" name="destination" >
+            <br>
+             <br>
+              <br>
+            <button type="submit">upload file</button>
+            </form>
+            <hr>
+            <hr>
+            <hr>
+            <h1>FILE DOWNLOAD APPLICATION</h1>
+            <BR>
+            Click <a href="Fileuploadservlet?filename=CN.pdf">CN PDF</a>
+            <BR>
+            <BR>
+            <BR>
+             Click <a href="Fileuploadservlet?filename=Nsm.pdf">NSM PDF</a>
+        </div>
+        
+    </body>
+</html>
